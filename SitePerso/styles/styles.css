@@ -1,0 +1,399 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding: 2px;
+    background: #ffffffb8;
+}
+
+
+header span strong{
+    font-size: 30px;
+    /*font-family: lucida handwriting, sans-serif;*/
+}
+
+.logo_web_perso{
+    padding-left: 20px;
+}
+
+.menu_box{
+    display: inline-block;
+    padding-left: 480px;
+}
+
+.menu_box span{
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.menu_box span a{
+    text-decoration: none;
+    color: black;
+    transition: ease-out all .2s;
+}
+
+.menu_box span a:hover{
+    text-decoration:  none;
+    color: indianred;
+}
+
+.menu.active a{
+    color: indianred;
+}
+
+.button_call_to_talk{
+    padding-top: 10px;
+    padding-right: 40px;
+    float: right;
+    display: inline-block;
+}
+
+.button_call_to_talk button{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+    font-size: 17px;
+    background: transparent;
+    transition: ease-out .4s;
+}
+
+.button_call_to_talk button:hover{
+    background: black;
+    color: white;
+    transition: ease-out .2s;
+}
+
+button:active{
+    transform: scale(1.05);
+}
+
+.got_a_project_btn{
+    background: black;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 17px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.let_talk_btn{
+    background: transparent;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.let_talk_btn:hover{
+    background: black;
+    color: white;
+}
+
+
+.container{
+    padding: 10px;
+}
+
+.body_container div{
+    display: inline-block;
+
+}
+
+.body_container{
+    background: indianred;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text_text{
+    padding-top: 100px;
+    padding-left: 100px;
+    width:45%;
+}
+
+.text_text strong{
+    font-size: 50px;
+}
+
+.competences strong{
+    font-size: 20px;
+    color: #a0a0a0;
+}
+
+.picture_picture{
+    float: right;
+    width: 40%;
+    height: 100px;
+    padding-right: 50px;
+}
+
+.picture_picture img{
+    filter: grayscale(100%);
+    width: 500px;
+    height: 530px;
+    object-fit: cover;
+}
+
+.do_not_cross{
+    width: 95.8%;
+    position: absolute;
+    font-size: 12px;
+    color: #a0a0a0;
+    padding: 20px;
+    background: black;
+    transform: rotateZ(-3deg);
+}
+
+.barre_barre{
+    background: indianred;
+    padding-bottom: 50px;
+}
+
+
+.home_box{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home_box div{
+    display: inline-block;
+}
+
+.home_box_left{
+    width: 40%;
+    padding: 4px;
+}
+
+.home_box_left table{
+    width: 90%;
+}
+
+.home_box_left table strong{
+    font-size: 20px;
+}
+
+.home_box_left table font{
+    font-size: 13px;
+    color: #a0a0a0;
+}
+
+.home_box_left tr:last-child td:last-child{
+    color: white;
+    background: black;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.home_box_left tr td:first-child{
+    padding-right: 40px;
+}
+
+.home_box_right{
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    background: #f4f4f4;
+}
+
+.home_box_right table img{
+    object-fit: cover;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid indianred;
+}
+
+.home_box_right table{
+    width: 100%;
+}
+
+.home_box_right table a{
+    text-decoration: none;
+    color: indianred;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+
+.home_box_right tr td:first-child{
+    padding-right: 20px;
+}
+
+.home_box_right tr td strong{
+    font-size: 20px;
+}
+
+
+
+.home_box_right tr td font{
+   color: #a0a0a0;
+}
+
+
+
+
+.contact_box{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact_box div{
+    display: inline-block;
+}
+
+.input_contact{
+    padding: 8px;
+    width: 45%;
+}
+
+
+.input_contact input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 17px;
+    color: black;
+}
+
+.input_contact textarea{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 17px;
+    color: black;
+}
+
+.input_contact button{
+    border: none;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.coordonne_box{
+    float: right;
+    width: 48%;
+    padding: 8px;
+    padding-top: 40px;
+}
+
+.coordonne_box_coordonne{
+    border-left: 10px dotted black;
+    color: white;
+    background: indianred;
+    padding: 8px;
+    width: 90%;
+    float: right;
+    border-radius:  0px;
+    padding-bottom: 15px;
+}
+
+.coordonne_box_coordonne li{
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.coordonne_box_coordonne li img{
+    width: 30px;
+}
+
+.coordonne_box_coordonne li a{
+    text-decoration: none;
+    color: white;
+}
+
+.project_box{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px 10px;
+}
+
+.project_details{
+    margin: 0 auto;
+    width: 45%;
+}
+
+.project_details td:first-child img{
+    width: 40px;
+}
+
+.project_details td:last-child img{
+    width: 310px;
+    border-radius: 10px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.project_details td:last-child img:hover{
+    width: 23%;
+    border-radius: 10px;
+    height: 180px;
+    position: absolute;
+    object-fit: cover;
+    border: 2px solid indianred;
+    animation: afficheproject .5s;
+    transition: ease .5s;
+}
+
+@keyframes afficheproject{
+    from{
+        height: 50px;
+    }
+
+    to{
+        height: 200px;
+    }
+}
+
+.project_details tr td:first-child{
+    padding-right: 40px;
+}
+
+.project_details button{
+    width: 95%;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;}
+
+.project_details button:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: ease-out all .2s;
+}
+
+.project_details h3{
+    color: indianred;
+}
+
+
+
+
+footer{
+    width: auto;
+    background: #f4f4f4;
+    padding: 40px;
+    border-top: 1px solid #c0c0c0;
+}
